@@ -1,7 +1,7 @@
 
 /*
 Color palette :
-https://colorhunt.co/palette/f5efe6e8dfcaaebdca7895b2
+https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e
 */
 
 
@@ -12,22 +12,33 @@ body {
 }
 
 h1 {
-    margin-top: 0;
+    color: #112D4E;
     font-family: "Sacramento", cursive;
-}
+    font-size: 5.625rem; /* using 1em = 16 px = 100% , rem : root em*/
+    /*line-height: 1.5; single number without units */
+    margin: 50px auto 0 auto;
+    }
 
 h2 {
+    color: #112D4E;
     font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
 }
 
 h3 {
+    color: #3F72AF;
     font-family: "Montserrat", sans-serif;
 }
 
+a {
+    color: #3F72AF;
+}
 
 /************* Class *************/
+
 .top-container {
-    background-color: #F5EFE6;
+    background-color: #F9F7F7;
     position: relative;
     padding-top: 100px;
 }
@@ -50,6 +61,22 @@ h3 {
     bottom: 300px;
 }
 
-.resize-img {
-    height:50px;
-    }
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+/* images */
+.chart-img{
+    float: left;
+    margin-right: 20px;
+    width: 15%;
+}
+
+.histo-img {
+    float: right;
+    margin-left: 10px;
+    width: 15%;
+}
